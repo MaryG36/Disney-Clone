@@ -5,7 +5,6 @@ const api_key = "a81ff1d22cf8d66caf7b445c13fac833";
 
 const movieByGenreBaseURL='https://api.themoviedb.org/3/discover/movie?api_key=a81ff1d22cf8d66caf7b445c13fac833';
 
-// https://api.themoviedb.org/3/trending/all/day?api_key=a81ff1d22cf8d66caf7b445c13fac833
 
 const trendingVideoURL = movieBaseUrl + 
 "/trending/all/day?api_key=" + api_key;
