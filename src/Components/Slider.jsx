@@ -13,7 +13,6 @@ const Slider=()=> {
   const getTrendingMovies =  async () => {
     const trendingVideos = await getTrendingVideos();
     setMovieList(trendingVideos.data.results);
-    // console.log(movieList);
   };
 
 
