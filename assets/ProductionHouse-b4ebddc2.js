@@ -1,0 +1,6 @@
+import{j as e}from"./index-4688d2f3.js";const o=""+new URL("disney-c4059d54.png",import.meta.url).href,t=""+new URL("marvel-e9c1323d.png",import.meta.url).href,i=""+new URL("nationalG-7a8236a9.png",import.meta.url).href,n=""+new URL("pixar-c423f7c1.png",import.meta.url).href,s=""+new URL("starwar-1eab3a7b.png",import.meta.url).href,m=""+new URL("star-wars-6bfec285.mp4",import.meta.url).href,p=""+new URL("disney-dc7d5ffd.mp4",import.meta.url).href,l=""+new URL("marvel-2bc69f97.mp4",import.meta.url).href,d=""+new URL("national-geographic-50e971d7.mp4",import.meta.url).href,c=""+new URL("pixar-faceac07.mp4",import.meta.url).href;function f(){const a=[{id:1,image:o,video:p},{id:2,image:n,video:c},{id:3,image:t,video:l},{id:4,image:s,video:m},{id:5,image:i,video:d}];return e.jsx("div",{className:"flex w-full gap-2 md:gap-5 md:px-16 p-2 px-20 ",children:a.map(r=>e.jsxs("div",{className:`border-[2px] border-gray-600
+            rounded-lg hover:scale-110 transition-all duration-300
+            ease-in-out cursor-pointer relative shadow-xl 
+            shadow-gray-800 
+            `,children:[e.jsx("video",{src:r.video,autoPlay:!0,loop:!0,playsInline:!0,muted:!0,className:`w-full absolute z-0  top-0 rounded-md 
+            opacity-0 hover:opacity-50`}),e.jsx("img",{src:r.image,className:"w-full z-[1] opacity-100"})]}))})}export{f as default};
