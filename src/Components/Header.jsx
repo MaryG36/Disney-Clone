@@ -59,8 +59,8 @@ const Header=()=>{
             <HeaderItem name={""} Icon={HiDotsVertical} />
             {toggle ? (
               <div
-                className="absolute mt-3 bg-[#121212]
-        border-[1px] border-gray-700 p-3 px-5 py-4"
+                className="absolute mt-3 bg-slate-950
+        border-[1.2px] border-gray-700 p-3 px-5 py-4"
               >
                 {menu.map(
                   (item, index) =>

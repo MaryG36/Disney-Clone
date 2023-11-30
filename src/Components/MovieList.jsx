@@ -35,7 +35,7 @@ function MovieList({genreId, index_}) {
 
     <div ref={elementRef} className='flex overflow-x-auto gap-8 scrollbar-none
       scroll-smooth pt-5 px-3 pb-5'>
-      {movieList.map((movie)=> {
+      {movieList.filter(movie => !!movie.backdrop_path).map((movie)=> {
         return <>
        {index_%3==0?<HrMovieCard movie={movie}/>:<MovieCard movie={movie}/>}
         </>
