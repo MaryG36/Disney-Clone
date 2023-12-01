@@ -3,7 +3,7 @@ import disney from './../assets/images/disney.png'
 import marvel from './../assets/images/marvel.png'
 import nationalG from './../assets/images/nationalG.png'
 import pixar from './../assets/images/pixar.png'
-import starwar from './../assets/images/starwar.png'
+import starwar from './../assets/images/starwar-min.png'
 
 import starwarV from './../assets/videos/star-wars.mp4'
 import disneyV from './../assets/videos/disney.mp4'
@@ -41,17 +41,17 @@ function ProductionHouse() {
 
     ]
   return (
-    <div className='flex w-full gap-2 md:gap-5 md:px-16 p-2 px-20 '>
+    <div className='flex w-full gap-2 md:gap-5 md:px-16 p-2 md:ml-20 pt-4' loading="lazy">
         {productionHouseList.map((item)=>(
             <div className='border-[2px] border-gray-600
             rounded-lg hover:scale-110 transition-all duration-300
             ease-in-out cursor-pointer relative shadow-xl 
             shadow-gray-800 
-            '>
+            ' loading="lazy" >
                  <video src={item.video} autoPlay loop playsInline muted 
             className='w-full absolute z-0  top-0 rounded-md 
-            opacity-0 hover:opacity-50'/> 
-                <img src={item.image} className='w-full z-[1] opacity-100' /> 
+            opacity-0 hover:opacity-50' id="load-now"/> 
+                <img src={item.image} className='w-full z-[1] opacity-100' loading="lazy"/> 
                
             </div>
         ))}

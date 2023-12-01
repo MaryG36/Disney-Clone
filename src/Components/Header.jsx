@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/images/disney-img.jpg";
+import logo from "../assets/images/DisneyPlusLogo.jpg";
 import {
   HiHome,
   HiMagnifyingGlass,
@@ -42,8 +42,8 @@ const Header=()=>{
       <div className="flex gap-8 items-center">
         <img
           src={logo}
-          className="w-[80px] 
-      md:w-[115px] object-cover"
+          className="w-[70px] 
+      md:w-[105px] object-cover pb-5"
         />
         <div className="hidden md:flex gap-8">
           {menu.map((item) => (
@@ -76,7 +76,7 @@ const Header=()=>{
       <div>
         <img
           src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745"
-          className="w-[40px] rounded-full"
+          className="w-[40px] rounded-full" loading="lazy"
         />
       </div>
     </div>
