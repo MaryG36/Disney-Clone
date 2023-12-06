@@ -5,6 +5,7 @@ import Slider from "./Components/Slider";
 import ProductionHouse from "./Components/ProductionHouse";
 import GenreMovieList from "./Components/GenreMovieList";
 import CircleLoader from "react-spinners/CircleLoader";
+import Footer from "./Components/Footer";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -26,6 +27,7 @@ const App = () => {
       ) : (
         <GenreMovieList />
       )}
+      <Footer />
     </div>
   );
 };
