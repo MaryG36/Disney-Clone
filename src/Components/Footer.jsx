@@ -9,8 +9,8 @@ function Footer() {
     >
       <img src={logo} />
 
-    <div className="fle">
-      <ul className="flex justify-center text-white-400 text-xs gap-5">
+    <div className="flex justify-center w-full ">
+      <ul className="flex text-center text-gray-300 text-xs gap-5">
         <li>
           <span class="language-selector">
             <label for="language-selector">Languages</label>

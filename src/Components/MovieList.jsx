@@ -21,6 +21,7 @@ function MovieList({genreId, index_}) {
       const slideRight=(element)=>{
         element.scrollLeft+=500;
     }
+    
     const slideLeft=(element)=>{
         element.scrollLeft-=500;
     }
