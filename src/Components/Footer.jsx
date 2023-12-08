@@ -237,7 +237,7 @@ function Footer() {
         </li>
       </ul>
     </div>
-    <p className="text-gray-400 text-xs ">
+    <p className="text-gray-400 text-xs w-[200px]">
       © Disney Clone. All Rights Reserved.
       </p>
     </div>

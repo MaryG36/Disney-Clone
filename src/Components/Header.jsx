@@ -73,11 +73,13 @@ const Header=()=>{
           </div>
         </div>
       </div>
-      <div>
-        <img
+      <div className="border-2 rounded-3xl border-gray-500 hover:opacity-80">
+        <a href="https://www.disneyplus.com/identity/login/enter-email"><img
           src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745"
           className="w-[40px] rounded-full" loading="lazy"
         />
+        </a>
+        
       </div>
     </div>
   );
