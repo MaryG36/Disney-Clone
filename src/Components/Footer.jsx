@@ -3,14 +3,15 @@ import logo from "../assets/images/DisneyPlusLogo.jpg";
 
 function Footer() {
   return (
+    <div className="w-full ">
     <div
-      className="w-full md:w-[170px] object-cover pb-5 m-auto pt-20"
+      className="w-full md:w-[170px] max-sm:w-[200px] pb-5 m-auto pt-20 "
       loading="lazy"
     >
-      <img src={logo} />
+      <img src={logo} className="object-scale-down h-48 w-96"/>
 
-    <div className="flex justify-center pb-10">
-      <ul className="flex tracking-wide  text-gray-400 text-xs gap-6 ">
+    <div className="flex justify-center pb-10 ">
+      <ul className="flex max-sm:grid text-gray-400 text-xs gap-6 max-sm:gap-1">
         <li>
           <span ClassName="language-selector">
             <label for="language-selector">Languages</label>
@@ -236,9 +237,10 @@ function Footer() {
         </li>
       </ul>
     </div>
-    <p className=" text-gray-400 text-xs">
+    <p className="text-gray-400 text-xs ">
       © Disney. All Rights Reserved.
       </p>
+    </div>
     </div>
   );
 }
