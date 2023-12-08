@@ -6,10 +6,10 @@ import ProductionHouse from "./Components/ProductionHouse";
 import GenreMovieList from "./Components/GenreMovieList";
 import CircleLoader from "react-spinners/CircleLoader";
 import Footer from "./Components/Footer";
-import ReactDOM from "react-dom";
-import { QueryClient, QueryClientProvider } from "react-query";
+// import ReactDOM from "react-dom";
+// import { QueryClient, QueryClientProvider } from "react-query";
 
-const queryClient = new QueryClient();
+// const queryClient = new QueryClient();
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -36,11 +36,11 @@ const App = () => {
   );
 };
 
-ReactDOM.render(
-  <QueryClientProvider client={queryClient}>
-    <App />
-  </QueryClientProvider>,
-  document.getElementById("root"),
-);
+// ReactDOM.render(
+//   <QueryClientProvider client={queryClient}>
+//     <App />
+//   </QueryClientProvider>,
+//   document.getElementById("root"),
+// );
 
-export default App;
+ export default App;
