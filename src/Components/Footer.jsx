@@ -12,7 +12,7 @@ function Footer() {
 
     <div className="flex justify-center pb-10 ">
       <ul className="flex max-sm:grid text-gray-400 text-xs gap-6 max-sm:gap-1">
-        <li>
+        <li className="pb-5">
           <span ClassName="language-selector">
             <label for="language-selector">Languages</label>
             <select id="language-selector" ClassName="fine" className="text-gray-700">
@@ -238,7 +238,7 @@ function Footer() {
       </ul>
     </div>
     <p className="text-gray-400 text-xs ">
-      © Disney. All Rights Reserved.
+      © Disney Clone. All Rights Reserved.
       </p>
     </div>
     </div>
